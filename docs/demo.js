@@ -30,7 +30,7 @@ require('../openseadragon-filtering');
 var viewer = new OpenSeadragon({
     id: 'openseadragon',
     prefixUrl: 'images/',
-    tileSources: '//openseadragon.github.io/example-images/highsmith/highsmith.dzi',
+    tileSources: 'https://raw.githubusercontent.com/darwinjob/osd-demo/master/resources/Calb_s3gl4s5_10x/Calb_s3gl4s5_10x.xml',
     crossOriginPolicy: 'Anonymous'
 });
 
